@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React is a JavaScript library that stives to make modular repeatable code for use in optimizing data transfer in apps.
+
 - [ ] What does it mean to _think_ in react?
+
+Break the UI into components, build a static version, make the MVP of the UI state, find the component to hold state, add the inverse data flow.
 
 - [ ] Describe state.
 
+State is a mutable value that stores a value of a component that when changed re-renders.
+
 - [ ] Describe props.
 
+Props are properties of an object that are passed from parent to child.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+Side effect are any changes that occur beside the desired return of a value you can sync effects by nesting the state inside of the useEffect function.
 
 ## Project Set Up
 
